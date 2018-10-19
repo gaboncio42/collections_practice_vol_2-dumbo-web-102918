@@ -21,7 +21,8 @@ def count_elements(array)
   .map { |key, value| key.merge(count: value.length)}
 end
 
-def merge_data
+def merge_data(keys, data)
+  
 
 def find_cool(array)
   array.select do |item|
