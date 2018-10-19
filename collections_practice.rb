@@ -22,10 +22,10 @@ def count_elements(array)
 end
 
 def merge_data(array_1, array_2)
-  merge = []
+  merged_data = []
   counter = 0
   while counter < array_1.length
-    merge << array_1[counter]
+    merge_data << array_1[counter]
     
   
 end
