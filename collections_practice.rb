@@ -28,9 +28,8 @@ def merge_data(array_1, array_2)
     merge_data << array_1[counter].merge(array_2.values[counter])
     counter += 1
   end
-  
-    
-  
+  merged_data
+
 end
 
 def find_cool(array)
