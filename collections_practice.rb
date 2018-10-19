@@ -28,7 +28,8 @@ def merge_data(array_1, array_2)
 end
 
 def find_cool(array)
-  array.selecto do |item|
+  array.select do |item|
+    item.has_value?("cool")
     
   
 end
