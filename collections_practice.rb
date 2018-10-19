@@ -25,8 +25,8 @@ def merge_data(keys, data)
   merged_data = []
   counter = 0
   
-  while (counter < keys.length)
-    merged_data.push(keys[counter].merge(data[0].values[counter]))
+  while counter < keys.length
+    merged_data << keys[counter].merge(data[0].values[counter])
     counter += 1
   end
   
