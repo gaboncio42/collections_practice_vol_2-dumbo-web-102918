@@ -27,7 +27,7 @@ def merge_data(array_1, array_2)
   
 end
 
-def find_cool
+def find_cool(array)
   
 end
 
