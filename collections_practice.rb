@@ -26,7 +26,7 @@ def merge_data(keys, data)
   counter = 0
   
   while (counter < keys.length)
-    merged_data.push()
+    merged_data.push(keys[counter])
 
 def find_cool(array)
   array.select do |item|
