@@ -25,7 +25,8 @@ def merge_data(keys, data)
   merged_data = []
   counter = 0
   
-  while counter < keys.length
+  while (counter < keys.length)
+  
 
 def find_cool(array)
   array.select do |item|
