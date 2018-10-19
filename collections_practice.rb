@@ -25,7 +25,7 @@ def merge_data(array_1, array_2)
   merged_data = []
   counter = 0
   while counter < array_1.length
-    merge_data << array_1[counter]
+    merge_data << array_1[counter].merge()
     
   
 end
