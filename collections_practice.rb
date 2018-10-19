@@ -21,11 +21,11 @@ def count_elements(array)
   .map { |key, value| key.merge(count: value.length)}
 end
 
-def merge_data(array_1, array_2)
+def merge_data(keys, data)
   merged_data = []
   counter = 0
-  while counter < array_1.length
-    merge_data.push(array_1[counter].merge(array_2.values[counter]))
+  while counter < keys.length
+    merge_data << keys[counter].merge(data.values[counter])
     counter += 1
   end
    return merged_data
